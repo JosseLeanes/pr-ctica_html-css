@@ -1,0 +1,227 @@
+
+.navbar {
+    background-color: rgb(74, 84, 94);
+    display: flex;    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+nav.navbar img.img_navbar {
+    size: 10px;
+    max-width: 80px;
+    padding: 10px;
+}
+
+nav.navbar .titulo {
+    font-size: 30px;
+    font-style: oblique;
+    padding-top: 25px;
+    
+}
+
+nav.navbar .menu .link {
+    align-items: flex-end;
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    height: 500px;
+    background-image: url("../Imágenes/IMG_5610.PNG");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+
+header p {
+    text-align: center;
+    margin: 10px;
+    padding-top: 60px;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(199, 191, 180);
+}
+
+main {
+    background-color: #747679;
+    padding-bottom: 10px;
+}
+
+main p, main h1 {
+    padding: 10px;
+}
+
+main h1 {
+    font-size: 25px;
+}
+
+
+
+.c, .html, .css, .js, .python {
+    height: 15px;
+    width: 150px;
+    border: 2px solid #111213;
+    border-radius: 50px;
+    background-color: #e6f3fa;
+    margin-bottom: 15px;
+    margin-left: 10px; 
+    
+}
+
+.c_bar {
+    width: 0;
+    height: 100%;
+    background: #79828b;
+    border-radius: 50px;
+    animation: c 2s infinite;
+    margin-bottom: 15px;  
+}
+
+.html_bar {
+    width: 0;
+    height: 100%;
+    background: #79828b;
+    border-radius: 50px;
+    animation: html 2s infinite;
+    margin-bottom: 15px;   
+}
+
+.css_bar {
+    width: 0;
+    height: 100%;
+    background: #79828b;
+    border-radius: 50px;
+    animation: css 2s infinite;
+    margin-bottom: 15px;   
+}
+
+.js_bar {
+    width: 0;
+    height: 100%;
+    background: #79828b;
+    border-radius: 50px;
+    animation: js 2s infinite;
+    margin-bottom: 15px;   
+}
+
+.python_bar {
+    width: 0;
+    height: 100%;
+    background: #79828b;
+    border-radius: 50px;
+    animation: python 2s infinite;
+    margin-bottom: 15px;  
+}
+
+form {
+    background-color: rgb(188, 193, 197);
+}
+
+form h1, form div  {
+    padding: 10px;
+}
+
+form h1 {
+    font-size: 25px;
+}
+
+.footer {
+    
+    background-color: rgb(74, 84, 94);
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .rrss {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+}
+
+
+@keyframes c { 
+    from {
+        background-color: #79828b;
+        opacity: 0;
+        width: 0%;
+    }
+    to {
+        background-color: #79828b;
+        opacity: 1;
+        width: 90%;
+    }   
+}
+
+@keyframes html { 
+    from {
+        background-color: #79828b;
+        opacity: 0;
+        width: 0%;
+    }
+    to {
+        background-color: #79828b;
+        opacity: 1;
+        width: 40%;
+    }   
+}
+
+@keyframes css { 
+    from {
+        background-color: #79828b;
+        opacity: 0;
+        width: 0%;
+    }
+    to {
+        background-color: #79828b;
+        opacity: 1;
+        width: 30%;
+    }   
+}
+
+@keyframes js { 
+    from {
+        background-color: #79828b;
+        opacity: 0;
+        width: 0%;
+    }
+    to {
+        background-color: #79828b;
+        opacity: 1;
+        width: 10%;
+    }   
+}
+
+@keyframes python { 
+    from {
+        background-color: #79828b;
+        opacity: 0;
+        width: 0%;
+    }
+    to {
+        background-color: #79828b;
+        opacity: 1;
+        width: 100%;
+    }   
+}
+
+@media screen and (min-width: 768px) {
+    .navbar .menu .link:hover { 
+        color: rgb(165, 162, 162);
+        transition: color 0.3s linear;}
+
+    .footer .rrss:hover { 
+        color: rgb(165, 162, 162);
+        transition: color 0.3s linear;}
+    } 
+
+
+
+
