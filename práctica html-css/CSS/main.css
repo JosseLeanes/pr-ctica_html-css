@@ -139,6 +139,10 @@ form h1 {
     flex-wrap: wrap;
 }
 
+.footer .logos {
+    width: 2%;
+}
+
 .footer .rrss {
     text-decoration: none;
     font-size: 20px;
